@@ -1,0 +1,25 @@
+<suite name="Regression"> //Name of the test suite
+	
+	<test name="LoginTest">	//Name of the test case
+		
+		<parameter name="userName" value="demo@techfios.com" />	//values to be passed
+		<parameter name="password" value="abc123" />
+		<parameter name= "fullName" value= "Excel Project"/>
+		<parameter name= "company" value= "Techfios"/>
+		<parameter name= "email" value= "msexcell@gmail.com"/>
+		<parameter name= "phoneNum" value= "a275672"/>
+		<parameter name= "address" value= "Techfios Building"/>
+		<parameter name= "city" value= "carrolton"/>
+		<parameter name= "state" value= "TX"/>
+		<parameter name= "zip" value= "a1234"/>
+		<parameter name= "country" value= "United States"/>
+		<classes>
+			
+			<!--<class name= "test.LoginTest"/> -->
+			<class name= "test.AddCustomerTest"/>
+			
+		</classes>
+	
+	</test>
+	
+</suite>

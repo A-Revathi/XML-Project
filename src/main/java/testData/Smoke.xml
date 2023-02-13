@@ -1,0 +1,17 @@
+
+<suite name= "Smoke"> //Name of the test suite
+	
+	<test name="LoginTest">	//Name of the test case
+		
+		<parameter name="userName" value="demo@techfios.com" />	//values to be passed
+		<parameter name="password" value="abc123" />
+		
+		<classes>
+			
+			<class name= "test.LoginTest"/>
+			
+		</classes>
+	
+	</test>
+	
+</suite>
